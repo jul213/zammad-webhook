@@ -1,0 +1,7 @@
+[build]
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/webhook/zammad-response"
+  to = "/.netlify/functions/zammad-response"
+  status = 200
